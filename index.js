@@ -4,6 +4,7 @@ import path from "path";
 import { fileURLToPath } from 'url';
 import { dirname } from 'path'; 
 import submitRouter from "./routes/sumbit.js"
+import deleterouter from "./routes/delete.js"
 
 const app = express();
 
@@ -25,6 +26,7 @@ app.use(express.static(path.join("public")));
 app.use(express.urlencoded({extended:true}));
 app.use(express.static(dirname + '/views')); 
 app.use(submitRouter)
+app.use(deleterouter)
 
 app.get("/",(req,res)=>{
     res.render("home")
