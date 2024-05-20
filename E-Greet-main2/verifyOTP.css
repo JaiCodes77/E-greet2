@@ -1,0 +1,70 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/gradient-emerald-background_23-2150260693.jpg);
+
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    text-align: center;
+    color: #f7f5f5;
+    margin-bottom: 50px;
+  }
+  .container {
+    width: 420px;
+    background:rgba(128, 203, 206, 0.511);
+    border: 2px solid rgba(255, 255, 255, 0.813);
+    backdrop-filter: blur(18px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+  }
+
+
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button[type="submit"] {
+    width: 50%;
+    height: 45px;
+    margin-left: 85px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-decoration-break: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.353);
+  }
+
+  button[type="submit"]:hover {
+    background-color: #8ca5bf;
+  }

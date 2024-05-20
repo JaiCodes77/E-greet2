@@ -1,0 +1,147 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*/
+** {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/gradient-emerald-background_23-2150260693.jpg);
+    background-size: cover;
+    background-position: center;
+  } 
+  
+  span {
+    content: "\2190";
+    
+  
+    
+  }
+  a:link {
+    color:#070707;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:#020202;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:#040404;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color:#040404;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  
+ 
+  
+  
+
+  
+
+
+
+
+.container {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color:transparent;
+}
+.container h3 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  width: 600px;
+  height: 300px;
+  background-color: #ffffff;
+  padding: 10px 30px 40px;
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  
+}
+
+.drop_box {
+  margin: 10px 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px dotted #a3a3a3;
+  border-radius: 5px;
+}
+
+.drop_box h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+.drop_box p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.btn {
+    margin-top: 50px;
+    width: 50%;
+    height: 45px;
+    margin-left: 5px;
+    background: #fff;
+    border:#010101;
+    outline:#010101;
+    border-radius: 30px;
+    box-decoration-break: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.353);
+    margin-left:10px ;
+}
+
+.btn:hover{
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #005af0;
+  padding: 10px 20px;
+  border: none;
+  outline: 1px solid #010101;
+}
+.form input {
+  margin: 10px 0;
+  width: 100%;
+  background-color: #e2e2e2;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}

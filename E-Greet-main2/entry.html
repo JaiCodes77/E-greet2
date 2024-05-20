@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>E-greetings </title>
+    <link rel="stylesheet" href="entry.css">
+  </head>
+  <body>
+    <main>
+    <div class="container">
+      <form action="">
+        <span><a href="home.html" >&#8592;</a></span>
+
+    
+
+        <div class="input-box">
+            <label for="name" id="namelable">name:</label>
+            <input type="text" id="name" name="name" required>
+         
+        </div>
+        <div class="input-box">
+            <label for="mail" id="maillable">E-mail:</label>
+            <input type="text" id="mail" name="mail" required>
+           
+          </div>
+        <div class="input-box">
+            <label for="AN" id="ANlable">Admission Number:</label>
+            <input type="text" id="AN" name="AN" required>
+        
+        </div>
+        <div class="input-box">
+          <label for="EN" id="ENlable">Enrollment Number:</label>
+          <input type="text" id="EN" name="EN" required>
+      
+      </div>
+        <div class="input-box">
+            <label for="DOB" id="DOBlable">Date of Birth:</label>
+            <input type="text" id="DOB" name="DOB" required>
+            
+          </input>
+          </div>
+
+          
+        <button type="submit" class="btn1"  href="#" onclick="show('popup')">Submit</button>       <button type="reset" class="btn">Reset</button>
+         
+            
+        <div class="popup" id="popup">
+          <p>Successfully submitted</p>
+      
+          <button class="btn1" href="#" onclick="window.location.href = 'entry.html';">want to continue</button>
+          <button class="btn2" href="#" onclick="window.location.href = 'home.html';">home</button>
+        </div>
+       
+    
+      </form>
+    
+    
+    </div>
+    <script src="entry.js"></script>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/gradient-emerald-background_23-2150260693.jpg);
+
+    background-size: cover;
+    background-position: center;
+  }
+  .container {
+    text-align: center;
+}
+
+h1 {
+    color: #008000; 
+}

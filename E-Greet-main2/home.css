@@ -1,0 +1,84 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/gradient-emerald-background_23-2150260693.jpg);
+
+    background-size: cover;
+    background-position: center;
+  }
+  
+ 
+  
+  .container h1 {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+  }
+  
+ 
+  .container .btn1 {
+    margin-top: 50px;
+    width: 150%;
+    height: 45px;
+    margin-left: 5px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-decoration-break: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.353);
+   margin-left: -65px;
+  }
+  .container .btn2 {
+    margin-top: 20px;
+
+    width: 150%;
+    height: 45px;
+    margin-left: 5px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-decoration-break: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.353);
+    margin-left: -65px;
+
+  }
+
+  
+  .container .btn4 {
+    margin-top: 20px;
+    width: 150%;
+    height: 45px;
+    margin-left: 5px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-decoration-break: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.353);
+    margin-left: -65px;
+
+  }
+  
